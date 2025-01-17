@@ -17,7 +17,7 @@ const authRoute = require("./Routes/AuthRoute");
 
 app.use(cors({
   origin: ['http://localhost:3000',
- 'http://localhost:3001','https://zerodhafrontend.vercel.app/login','https://zerodhafrontend.vercel.app/signup'],  
+ 'http://localhost:3001','https://zerodhafrontend.vercel.app/login','https://zerodhafrontend.vercel.app/signup','https://zerodhafrontend.vercel.app'],  
   credentials: true,
 }));  
 app.use(bodyParser.json());
